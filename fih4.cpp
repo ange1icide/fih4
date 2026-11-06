@@ -17,6 +17,7 @@
 #include <iomanip>
 #include <cassert>
 
+
 //Magics Lookup optimizations
 #if defined(__BMI2__) && !defined(NO_PEXT)
     #include <immintrin.h>
